@@ -1,0 +1,20 @@
+.main {
+  background-color: #030637;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main img {
+  scale: 0.8;
+  animation: rotation 9s infinite linear; /* Apply the rotation animation */
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
