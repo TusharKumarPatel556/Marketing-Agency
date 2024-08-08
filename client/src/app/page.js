@@ -1,11 +1,10 @@
 import React from "react";
-import MouseHover from "@/clientComponent/mousehoverComponent";
+import styles from "./phome.module.css";
 
 export default function Home() {
   return (
-    <main>
-      <MouseHover />
-      hello
+    <main className={styles.main}>
+      <img src="/images/banner.png" />
     </main>
   );
 }

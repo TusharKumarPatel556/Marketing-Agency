@@ -1,6 +1,6 @@
 "use client";
 import { useEffect } from "react";
-import styles from "../style/mousehover.module.css";
+import styles from "./mousehover.module.css";
 
 export default function MouseHover() {
   useEffect(() => {
@@ -20,9 +20,5 @@ export default function MouseHover() {
     };
   }, []);
 
-  return (
-    <main className={styles.main}>
-      <div id="mouse-box" className={styles.mouseBox}></div>
-    </main>
-  );
+  return <div id="mouse-box" className={styles.mouseBox}></div>;
 }

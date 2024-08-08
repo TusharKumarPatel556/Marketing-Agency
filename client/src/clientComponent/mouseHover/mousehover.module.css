@@ -1,0 +1,25 @@
+/* mousehover.module.css */
+
+.mouseBox {
+  width: 20px;
+  height: 20px;
+  background-color: #00ff00;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff0068, 0 0 30px #00ff00,
+    0 0 40px #00ff00;
+  transition: transform 0.1s ease-out;
+}
+
+@keyframes pulse512 {
+  0% {
+    box-shadow: 0 0 0 0 #05bada66;
+  }
+
+  70% {
+    box-shadow: 0 0 0 10px rgba(190, 44, 0, 0.453);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(206, 48, 0, 0);
+  }
+}
